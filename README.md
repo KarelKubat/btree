@@ -1,5 +1,14 @@
 # btree
 
+<!-- toc -->
+- [API](#api)
+  - [What's in the node?](#whats-in-the-node)
+  - [Instantiating a binary tree](#instantiating-a-binary-tree)
+  - [Adding nodes to the tree](#adding-nodes-to-the-tree)
+  - [Examining the tree](#examining-the-tree)
+- [Full example (see <code>main/wordcount.go</code>)](#full-example-see-mainwordcountgo)
+<!-- /toc -->
+
 Package `btree` implements an in-memory binary tree, where nodes are stored in-order.
 
 ## API
